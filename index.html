@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <title>faruq_shopify</title>
+    <link rel="icon" href="faruq.jpg">
+</head>
+
+<body>
+
+    <style>
+        * {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            text-align: center;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-image: url(background.jpg);
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+        }
+
+        .info {
+            width: 60%;
+            margin: auto;
+        }
+
+        .title {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        .title h2 {
+            font-size: 20px;
+            color: #da6d2e;
+        }
+
+        .title h1 {
+            font-size: 50px;
+            color: chocolate;
+        }
+
+        .image {
+            padding: 20px 0px;
+        }
+
+        .image img {
+            width: 150px;
+            height: 150px;
+            border-radius: 100px;
+        }
+
+        .des p {
+            font-size: 16px;
+            line-height: 33px;
+            margin-bottom: 30px;
+            color: teal;
+            font-weight: 600;
+        }
+
+        .intro_video iframe {
+            border-radius: 20px;
+            box-shadow: 0px 0px 8px 3px #00000047;
+        }
+
+        @media(max-width:991px) {
+
+            .container {
+                padding: 20px;
+            }
+
+            .title {
+                flex-direction: column;
+                text-align: center;
+                margin: 0;
+            }
+
+            .title h1 {
+                font-size: 40px;
+            }
+
+            .info {
+                width: 100%;
+                margin: auto;
+            }
+
+            .intro_video iframe {
+                width: 100%;
+
+            }
+
+        }
+    </style>
+
+    <div class="container">
+        <div class="info">
+            <div class="title">
+                <div>
+                    <h2>Hello I'm</h2>
+                    <h1>Omor Faruq</h1>
+                </div>
+                <div class="image">
+                    <img src="faruq.jpg" alt="pfp">
+                </div>
+            </div>
+
+            <div class="des">
+                <p>I am passionate about creating user-friendly and visually appealing websites optimised for
+                    performance
+                    and functionality. With 3 years of experience in website design, development, testing, and
+                    maintenance,
+                    I possess a deep understanding of the web development process and delivering high-quality work to
+                    clients sincerely. My skills include HTML, CSS, Jquery, WordPress, Elementor Pro, Woocommerce, etc.
+                    I’m
+                    constantly learning and staying up-to-date with the latest web development trends and technologies
+                    to
+                    ensure that you get the best output from me. Please feel free to communicate with me if you have any
+                    quires.
+                </p>
+            </div>
+            <div class="intro_video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/D0UnqGm_miA"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
